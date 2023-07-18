@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+dist/
+lib/
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# npm
+npm-debug.log
+npm-error.log

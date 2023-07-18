@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "ES2022",
+      "noImplicitReturns": true,
+      "moduleResolution": "Node16",
+      "noUnusedLocals": true,
+      "outDir": "lib",
+      "sourceMap": true,
+      "strict": true,
+      "target": "es2017",
+      "skipLibCheck": true,
+  
+    },
+    "compileOnSave": true,
+    "include": [ "pdf-image-extractor.ts"]
+  }
+  
