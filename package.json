@@ -5,6 +5,11 @@
   "type": "module",
   "main": "lib/index.js",
   "types": "pdf-image-extractor.d.ts",
+  "homepage": "https://github.com/Sorvereign/pdf-image-extractor/tree/main#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sorvereign/pdf-image-extractor/tree/main"
+  },
   "keywords": [
     "pdf",
     "image",
