@@ -1,6 +1,6 @@
 {
   "name": "pdf-io",
-  "version": "1.0.2",
+  "version": "1.0.21",
   "description": "Extract embeddable images from PDF files and more",
   "type": "module",
   "main": "lib/index.js",
