@@ -3,7 +3,7 @@ lockfileVersion: '6.0'
 dependencies:
   pako:
     specifier: ^1.0.10
-    version: 1.0.11
+    version: 1.0.10
   pdf-lib:
     specifier: ^0.6.1
     version: 0.6.1
@@ -18,6 +18,9 @@ dependencies:
     version: 5.0.1
 
 devDependencies:
+  '@types/node':
+    specifier: ^20.4.2
+    version: 20.4.2
   '@types/pako':
     specifier: ^2.0.0
     version: 2.0.0
@@ -46,7 +49,7 @@ packages:
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
     hasBin: true
     dependencies:
-      detect-libc: 2.0.1
+      detect-libc: 2.0.2
       https-proxy-agent: 5.0.1
       make-dir: 3.1.0
       node-fetch: 2.6.12
@@ -64,14 +67,14 @@ packages:
   /@pdf-lib/fontkit@0.0.4:
     resolution: {integrity: sha512-MfwaMqLKRuXXOuTisAUiie+cBH/Wo50SPBDQB5tmVqEHpJGkyh7eYi/xPgFugtPHEeWP6INUk5t9L7IAbV7jmw==}
     dependencies:
-      pako: 1.0.11
+      pako: 1.0.10
     dev: false
 
   /@pdf-lib/standard-fonts@0.0.4:
     resolution: {integrity: sha512-2pg8hXnChVAF6aSFraXtwB0cx/AgE15FvuLJbdPJSq9LYp1xMp0lapH4+t1HsdD9cA05rnWYLqlEBwS4YK1jLg==}
     dependencies:
       base64-arraybuffer: 0.1.5
-      pako: 1.0.11
+      pako: 1.0.10
     dev: false
 
   /@pkgjs/parseargs@0.11.0:
@@ -251,8 +254,8 @@ packages:
     dev: false
     optional: true
 
-  /detect-libc@2.0.1:
-    resolution: {integrity: sha512-463v3ZeIrcWtdgIg6vI6XUncguvr2TnGl4SzDXinkt9mSLpBJKXT3mW6xT3VQdDN11+WVs29pgvivTc4Lp8v+w==}
+  /detect-libc@2.0.2:
+    resolution: {integrity: sha512-UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw==}
     engines: {node: '>=8'}
     dev: false
     optional: true
@@ -512,8 +515,8 @@ packages:
     dev: false
     optional: true
 
-  /pako@1.0.11:
-    resolution: {integrity: sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==}
+  /pako@1.0.10:
+    resolution: {integrity: sha512-0DTvPVU3ed8+HNXOu5Bs+o//Mbdj9VNQMUOe9oKCwh8l0GNwpTDMKCWbRjgtD291AWnkAgkqA/LOnQS8AmS1tw==}
     dev: false
 
   /path-is-absolute@1.0.1:
@@ -548,7 +551,7 @@ packages:
       '@pdf-lib/fontkit': 0.0.4
       '@pdf-lib/standard-fonts': 0.0.4
       lodash: 4.17.21
-      pako: 1.0.11
+      pako: 1.0.10
       png-ts: 0.0.3
       proxy-polyfill: 0.3.2
     dev: false
@@ -567,7 +570,7 @@ packages:
   /png-ts@0.0.3:
     resolution: {integrity: sha512-Qwn3yMfbrbaN86QjrDAqD1UVJc4AV4hvBCx5Dv9libLd6D20xKtgOFs/UcvD0nnjxWlgS12kEVWCDFd9ZtwB+g==}
     dependencies:
-      pako: 1.0.11
+      pako: 1.0.10
     dev: false
 
   /pngjs@7.0.0:

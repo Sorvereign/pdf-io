@@ -1,10 +1,10 @@
 {
-  "name": "pdf-image-extractor",
+  "name": "pdf-io",
   "version": "1.0.0",
-  "description": "Extract embeddable images from PDF files",
+  "description": "Extract embeddable images from PDF files and more",
   "type": "module",
   "main": "lib/index.js",
-  "types": "pdf-image-extractor.d.ts",
+  "types": "pdf-io.d.ts",
   "homepage": "https://github.com/Sorvereign/pdf-image-extractor/tree/main#readme",
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "rimraf": "^5.0.1"
   },
   "devDependencies": {
+    "@types/node": "^20.4.2",
     "@types/pako": "^2.0.0",
     "@types/pngjs": "^6.0.1",
     "typescript": "^5.1.6"

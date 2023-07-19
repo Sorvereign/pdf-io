@@ -9,9 +9,9 @@
       "strict": true,
       "target": "es2017",
       "skipLibCheck": true,
-  
+      "types": ["node"]
     },
     "compileOnSave": true,
-    "include": [ "pdf-image-extractor.ts"]
+    "include": [ "pdf-io.ts"]
   }
   

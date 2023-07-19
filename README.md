@@ -1,12 +1,12 @@
-# PdfImageExtractor
+# Pdf-IO
 
-PdfImageExtractor is a TypeScript library that allows you to extract images from PDF files. It provides functionalities to parse a PDF, find image objects, and save the images as PNG files. The library is built using pdf-lib and pngjs.
+PDF-IO is a TypeScript library that allows you to extract images from PDF files. It provides functionalities to parse a PDF, find image objects, and save the images as PNG files. The library is built using pdf-lib and pngjs.
 
 ## Installation
 
-To use PdfImageExtractor in your project, you can install it via npm:
+To use PDF-IO in your project, you can install it via npm:
 
-npm install pdf-image-extractor
+npm install pdf-io
 
 csharp
 
@@ -14,13 +14,13 @@ csharp
 ## Usage
 
 ```typescript
-import { PdfImageExtractor } from "pdf-image-extractor";
+import { PDFIO } from "pdf-io";
 
 const pdfFilePath = "path/to/your/pdf/file.pdf";
 const outputDirectory = "path/to/output/images";
 
 // Create an instance of PdfImageExtractor
-const extractor = new PdfImageExtractor(pdfFilePath, { outputDirectory });
+const extractor = new PDFIO(pdfFilePath, { outputDirectory });
 
 // Extract images from the PDF
 await extractor.extractImages();
@@ -30,7 +30,7 @@ await extractor.extractImages();
 
 constructor(file: Buffer | string, options?: { isBuffer?: boolean; outputDirectory?: string; })
 
-Creates a new instance of PdfImageExtractor.
+Creates a new instance of PDFIO.
 
     file: The path to the PDF file or a Buffer containing the PDF data.
     options: An optional object with the following properties:

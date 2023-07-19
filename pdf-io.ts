@@ -40,7 +40,7 @@ interface PDFImage {
   isAlphaLayer?: boolean;
 }
 
-export class PdfImageExtractor {
+export class PDFIO {
   pdfFile: string | Buffer;
   pdfDoc: PDFDocument;
   imagesInDoc: PDFImage[];

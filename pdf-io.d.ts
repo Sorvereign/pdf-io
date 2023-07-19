@@ -1,6 +1,5 @@
 // pdf-image-extractor.d.ts
 import { PDFDocument, PDFIndirectReference, PDFObject } from "pdf-lib";
-
 export interface PDFImage {
   ref: PDFIndirectReference<PDFObject>;
   type: string;
@@ -15,7 +14,7 @@ export interface PDFImage {
   isAlphaLayer?: boolean;
 }
 
-export declare class PdfImageExtractor {
+export declare class PDFIO {
   pdfFile: string | Buffer;
   pdfDoc: PDFDocument;
   imagesInDoc: PDFImage[];
